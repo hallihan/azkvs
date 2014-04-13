@@ -1,0 +1,13 @@
+obj
+node_modules
+[Tt]humbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
+settings.json
+*.pubxml*
+*.njsproj
+*.sln
+*.suo
+test.js

@@ -1,0 +1,6 @@
+﻿{
+    "azkvs": {
+        "storageaccount": "[storage account name goes here]",
+        "storagekey": "[base64 encoded storage account key goes here]"
+    }
+}

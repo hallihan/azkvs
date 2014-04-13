@@ -1,0 +1,14 @@
+{
+  "name": "azkvs",
+  "version": "0.0.1",
+  "description": "azkvs",
+  "main":"test.js",
+  "author": {
+    "name": "Rick Hallihan",
+    "email": "rick.hallihan@gmail.com"
+  },
+  "dependencies": {
+    "azure": "^0.8.1",
+    "nconf": "~0.6.9"
+  }
+}
