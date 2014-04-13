@@ -1,0 +1,5 @@
+npm-debug.log
+*.njsproj
+*.suo
+*.sln
+settings.json
