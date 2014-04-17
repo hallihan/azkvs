@@ -80,6 +80,20 @@ p.getValue = function GetValue(partition,key,callback)
 
 }
 
+p.removeValue = function RemoveValue(partition,key,callback)
+{
+    var test = SortableNormalize(key);
+    this.TableService.deleteEntity(this.BagName, {PartitionKey:SortableNormalize(partition), RowKey:SortableNormalize(key)}, RemoveValueCallback.bind(callback));    
+    function RemoveValueCallback(err)
+    {
+        if(callback) { 
+            callback(err);
+        }
+        else{ console.warn("WARN: EntityBag.removeValue called without callback.");}
+    } 
+}
+
+
 p.getValues = function GetValues(partition, keystart, keyend, callback)
 {
     var query = azure.TableQuery

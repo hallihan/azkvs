@@ -1,14 +1,22 @@
 {
   "name": "azkvs",
   "version": "0.0.1",
-  "description": "azkvs",
-  "main":"test.js",
+  "description": "azkvs is a simple key-value store backed by Windows Azure Table Storage",
   "author": {
     "name": "Rick Hallihan",
-    "email": "rick.hallihan@gmail.com"
+    "email": "rickcode@outlook.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hallihan/azkvs.git"
+  },
+  "keywords": [
+    "azure",
+    "key value store"
+  ],
   "dependencies": {
     "azure": "^0.8.1",
     "nconf": "~0.6.9"
-  }
+  },
+  "homepage": "https://github.com/hallihan/azkvs"
 }

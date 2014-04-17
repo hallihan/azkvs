@@ -8,7 +8,7 @@ nconf.env().file({ file: 'settings.json' });
  * Load Dependencies
  */
 var azure = require('azure');
-var EntityBag = require('../lib/entitybag');
+var EntityBag = require('./entitybag');
 
 /*
  * Initialize Table Interface
@@ -25,7 +25,7 @@ exports.info = function info() {
     return(message);
 }
 
-exports.getEntityBag = function (name) {
-  return new EntityBag(name, tableService );
+exports.getEntityBag = function (name, callback) {
+  return new EntityBag(name, tableService, callback);
 };
 
