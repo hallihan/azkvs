@@ -2,6 +2,7 @@
   "name": "azkvs",
   "version": "0.0.1",
   "description": "azkvs is a simple key-value store backed by Windows Azure Table Storage",
+  "main":"azkvs.js",
   "author": {
     "name": "Rick Hallihan",
     "email": "rickcode@outlook.com"
